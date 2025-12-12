@@ -11,7 +11,7 @@
   <Header></Header>
   <h1 class="companyName">
     COFFEE MISHKA
-  </h1>
+  </h1> 
   <GeleryFoto></GeleryFoto>
   <News></News>
   <Footer></Footer>
@@ -29,5 +29,17 @@ main{
   font-size: 150px;
   font-weight: 900;
   font-family:'Gill Sans', 'Gill Sans MT';
+}
+@media screen and (max-width: 1330px){
+  .companyName{
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 850px){
+  .companyName{
+    margin-top: 40px;
+    font-size: 60px;
+    line-height: 45px;
+  }
 }
 </style>

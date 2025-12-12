@@ -1,4 +1,5 @@
 <script>
+	import Footer from './Footer.svelte';
 
 </script>
 
@@ -90,5 +91,30 @@
         border-radius: 50px;
 
     }
+    @media (max-width: 768px) {
+        footer{
+            flex-direction: column;
+            justify-content: flex-start;
+            height: auto;
 
+        }
+        a{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 30px;
+        }
+        p{
+            font-size: 30px;
+
+        }
+        .logo{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    }
 </style>

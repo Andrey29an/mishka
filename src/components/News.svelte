@@ -60,4 +60,54 @@
         background-color: rgb(228, 209, 176);
         padding: 20px 40px 20px 70px;
     }
+    @media (max-width: 1830px) {
+        p{
+            font-size: 13px
+        }
+        h1{
+            font-size: 33px;
+        }
+        h2{
+            font-size: 20px;
+        }
+    }
+    @media (max-width: 1310px) {
+        p{
+            font-size: 10px
+        }
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        .content{
+            padding: 10px 15px 10px 20px;
+        }
+    }
+    @media (max-width: 710px) {
+        p{
+            font-size: 10px
+        }
+        h1{
+            font-size: 25px;
+            line-height: 28px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        .conteiner{
+            flex-direction: column;
+        }
+        .img{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 30px 30px 0 0;
+        }
+        .content{
+            border-radius:  0 0 30px 30px;
+
+        }
+    }
 </style>

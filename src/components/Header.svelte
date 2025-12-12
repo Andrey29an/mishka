@@ -39,6 +39,16 @@
         margin-left: 20px;
         transition: all 0.4s ease-in-out
        }
+    @media screen and (max-width: 600px){
+        .a{
+        font-size: 10px;
+        padding: 5px;
+        margin-left: 10px;
+         }
+         header{
+            padding: 0 10px;
+         }
+    }
     .a:hover{
         background-color: rgb(158, 158, 93);
         scale: 1.1;
@@ -48,6 +58,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        min-width: 300px;
+        min-width: 180px;
     }
 </style>
